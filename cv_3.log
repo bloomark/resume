@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.9.5)  5 SEP 2014 02:28
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.9.5)  5 SEP 2014 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,122 +813,142 @@ LaTeX Info: Redefining \nameref on input line 67.
 \openout3 = `cv_3.out'.
 
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 88.
+
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 
+      
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 
+      
+? 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 116.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 
+      
+? 
+
+! LaTeX Error: \begin{itemize} on input line 132 ended by \end{itemize }.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \end{itemize^^I}
+                      \\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 107.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 107.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 107.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+! LaTeX Error: There's no line here to end.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 
+      
+? 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 164.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 164.
-LaTeX Font Info:    Try loading font information for U+ifsym on input line 164.
-
-LaTeX Font Info:    No file Uifsym.fd. on input line 164.
-
-LaTeX Font Warning: Font shape `U/ifsym/m/n' undefined
-(Font)              using `U/cmr/m/n' instead on input line 164.
-
+! Undefined control sequence.
+<argument> \custombold 
+                       {in/adithyavenkatesh}
+l.164 }
+       \\[10pt]
+? 
+! Undefined control sequence.
+<argument> \custombold 
+                       {@bloomark}
+l.164 }
+       \\[10pt]
+? 
 LaTeX Font Info:    Try loading font information for U+mvs on input line 164.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-Overfull \hbox (27.70734pt too wide) in paragraph at lines 164--165
-[][][][][][][] 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Overfull \hbox (23.94812pt too wide) in paragraph at lines 172--214
+Underfull \hbox (badness 10000) in paragraph at lines 172--195
+
+ []
+
+
+Overfull \hbox (8.49811pt too wide) in paragraph at lines 201--211
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--214
+Underfull \hbox (badness 10000) in paragraph at lines 201--211
 
  []
 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.220 &
+        \\
+? 
 
-Overfull \hbox (22.24811pt too wide) in paragraph at lines 221--230
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--230
-
- []
-
-
-Overfull \hbox (15.78812pt too wide) in paragraph at lines 237--248
-[][] 
- []
-
-
-Overfull \hbox (33.8081pt too wide) in paragraph at lines 255--264
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--264
+Underfull \hbox (badness 10000) in paragraph at lines 217--225
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./cv_3.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 269.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 269.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 240.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21719 strings out of 495658
- 394043 string characters out of 6187952
- 454792 words of memory out of 5000000
- 24713 multiletter control sequences out of 15000+600000
- 7285 words of font info for 41 fonts, out of 8000000 for 9000
+ 21690 strings out of 495658
+ 393658 string characters out of 6187952
+ 455792 words of memory out of 5000000
+ 24697 multiletter control sequences out of 15000+600000
+ 4533 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,11n,48p,10418b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,48p,10418b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv_3.pdf (1 page).
