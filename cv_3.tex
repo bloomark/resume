@@ -39,10 +39,10 @@
 
 % Colors for links, text and headings
 \usepackage{hyperref}
-\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
-\definecolor{shade}{HTML}{F5DD9D} % Peach color for the contact information box
+\definecolor{linkcolor}{HTML}{2b2b2b} % Blue-gray color for links
+\definecolor{shade}{HTML}{e5e4e2} % Peach color for the contact information box
 \definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
-\definecolor{headings}{HTML}{701112} % Dark red color for headings
+\definecolor{headings}{HTML}{6A6A6A} % Dark red color for headings
 % Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
 
 \hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
@@ -59,7 +59,7 @@
 \usepackage{titlesec} % Allows creating custom \section's
 
 % Format of the section titles
-\titleformat{\section}{\color{headings}
+\titleformat{\section}{\color{headings}{\textbf}
 \scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
 
 \titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
@@ -78,22 +78,22 @@
 	
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.585\textwidth} % Start the left-hand side of the page
+\begin{minipage}[t]{0.57\textwidth} % Start the left-hand side of the page
 \vspace{0pt} % Trick for alignment
 	
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{\uppercase{Experience}} 
+\section{\uppercase{\textbf{Experience}}}
 
 %------------------------------------------------
 % WORK EXPERIENCE 1
 %------------------------------------------------
 
-{\raggedleft\textsc{Jan 2014 -- July 2014 | Bangalore, INDIA}\par}
+%{\raggedleft\textsc{Jan 2014 -- July 2014 | Bangalore, INDIA}\par}
 
-{\raggedright\large InMobi\\
+{\raggedright\large InMobi \normalsize\textsc{ | Bangalore, INDIA} | Jan 2014 -- July 2014\\
 \textbf{SDET Intern | Release Management Engineering}\\[5pt]}
 \vspace{0pt}
 \begin{itemize}\itemsep-0.25em \item Developed an Integration Test framework for the InMobi Deployment Platform with JenkinsCI, Opscode Chef, test-kitchen and minitest-handler \item Automated 94\% of the test cases \item Worked in a team to create a tool to publish and track Production Job Metrics to the entire organization \item Used Java, Elasticsearch, \& Grafana to parse the Jenkins master box for data and published processed data to Grafana
@@ -103,9 +103,9 @@
 % WORK EXPERIENCE 2
 %------------------------------------------------
 
-{\raggedleft\textsc{June 2013 -- July 2013 | Montreal, QC, Canada}\par}
+%{\raggedleft\textsc{June 2013 -- July 2013 | Montreal, QC, Canada}\par}
 
-{\raggedright\large McGill University\\
+{\raggedright\large McGill University \normalsize\textsc{ | Montreal, QC | June 2013 -- July 2013}\\
 \textbf{Research Scholar}\\[5pt]}
 \begin{itemize}\itemsep-0.25em \item Part of team that worked on the computation and visualization of the three body asteroid problem \item Wrote a C++ data parser and created visualizations with OpenGL \item Assisted in writing MATLAB Computations
 \end{itemize}\\
@@ -113,11 +113,11 @@
 %------------------------------------------------
 % WORK EXPERIENCE 3
 %------------------------------------------------
-\section{\uppercase{Research}} 
+\section{\uppercase{\textbf{Research}}}
 
-{\raggedleft\textsc{June 2013 -- Aug 2013 | Montreal, QC, Canada}\par}
+%{\raggedleft\textsc{June 2013 -- Aug 2013 | Montreal, QC, Canada}\par}
 
-{\raggedright\large Concordia University\\
+{\raggedright\large Concordia University \normalsize\textsc{ | Montreal, QC | June 2013 -- Aug 2013}\\
 \textbf{Research Scholar}\\[5pt]}
 \begin{itemize}\itemsep-0.25em \item Worked with Prof Brigitte Jaumard to introduce a ‘CDMA Protocol in Multi-channel Multi-Radio Wireless Mesh Networks’ \item  Designed and Implemented the protocol in Java \item Used implementation to run a comparative study against different channel configurations.\end{itemize}\\
 
@@ -125,20 +125,20 @@
 % WORK EXPERIENCE 4
 %------------------------------------------------
 
-{\raggedleft\textsc{Summer 2012 | Mumbai, INDIA}\par}
+%{\raggedleft\textsc{Summer 2012 | Mumbai, INDIA}\par}
 
-{\raggedright\large IIT Bombay\\
+{\raggedright\large IIT Bombay \normalsize\textsc{ | Mumbai, INDIA | Summer 2012}\\
 \textbf{Summer Research Intern}\\[5pt]}
-\begin{itemize}\itemsep-0.25em \item Part of research team that developed and implemented an algorithm to simulate CNC Machining using Octree and Quadtree data structures \item First professional experience, learnt how to manage and work on a large scale project \item Sped up existing algorithm by 12.5\%.
-\end{itemize	}\\
+\begin{itemize}\itemsep-0.25em \item Part of research team that developed and implemented an algorithm to simulate CNC Machining using Octree and Quadtree data structures \item Sped up existing algorithm by 12.5\% \item First professional experience, learnt how to manage and work on a large scale project.
+\end{itemize}\\
 
 %------------------------------------------------
 % WORK EXPERIENCE 5
 %------------------------------------------------
 
-{\raggedleft\textsc{Spring 2013 | Bangalore, INDIA}\par}
+%{\raggedleft\textsc{Spring 2013 | Bangalore, INDIA}\par}
 
-{\raggedright\large Real-time Navigation Algorithm\\
+{\raggedright\large Real-time Navigation Algorithm \normalsize\textsc{ | Bangalore, INDIA | 2013}\\
 \textbf{Co-Author}\\[5pt]}
 \begin{itemize}\itemsep-0.25em \item Published paper titled 'Improving Real-Time Route Suggestions in Automotive Navigation Systems using Vehicle Cluster Behavior' \item Part of project for the undergraduate level Artificial Intelligence Course
 \end{itemize}\\
@@ -156,9 +156,10 @@
 
 \colorbox{shade}{\textcolor{text1}{
 \begin{tabular}{r|p{5cm}}
+\raisebox{-1pt}{\Letter} & \href{mailto:av445@cornell.edu}{av445@cornell.edu} \\ % Email address
+\raisebox{-3pt}{\Mobilefone} & 972-567-0504 \\ % Phone number
 LinkedIn & \href{https://www.linkedin.com/in/adithyavenkatesh}{\custombold{in/adithyavenkatesh}} \\
 Twitter & \href{https://twitter.com/bloomark}{\custombold{@bloomark}} \\
-\raisebox{-3pt}{\Mobilefone} & +1 972.567.0504 \\ % Phone number
 \end{tabular}
 }
 }\\[10pt]
@@ -167,7 +168,7 @@ Twitter & \href{https://twitter.com/bloomark}{\custombold{@bloomark}} \\
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\section{Education} 
+\section{\textbf{Education}}
 
 \begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
 
@@ -175,29 +176,41 @@ Twitter & \href{https://twitter.com/bloomark}{\custombold{@bloomark}} \\
 % EDUCATION 1
 %------------------------------------------------
 
-May 2015 & \textbf{MEng} \\ 
-& \textsc{Computer Science} \\ 
-& \textit{Cornell University}\\
-& \small Cum GPA. : N/A \\
+May 2015 & \textbf{MEng}, \textsc{Computer Science} \\ 
+& \large{Cornell University}\\
+& \small Cum. GPA : N/A \\
 &\\
 	 
 %------------------------------------------------
 % EDUCATION 2
 %------------------------------------------------
 
-Jul 2014 & \textbf{B.E.} \\ 
-& \textsc{Computer Science} \\ 
-& \textit{M. S. Ramaiah Institute of} \\
-& \textit{Technology, INDIA} \\
-& \small Cum GPA. : 9.02 \\
+Jul 2014 & \textbf{B.E.} \textsc{Computer Science} \\ 
+& \large{M. S. Ramaiah Institute of} \\
+& \large{Technology,} \normalsize{INDIA} \\
+& \small Cum. GPA : 9.02 \\
 &\\
 \end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Technologies}}
+\begin{tabular}{rl}
+Proficient
+& Java \textbullet{} C \textbullet{} C++ \textbullet{} SQL
+& \\
+Familiar
+& Ruby \textbullet{} Shell \textbullet{} \LaTeX,\\
+& Python \textbullet{} Photoshop\\
+\end{tabular}\\
 
 %----------------------------------------------------------------------------------------
 %	AWARDS
 %----------------------------------------------------------------------------------------
 
-\section{Recognitions} 
+\section{\textbf{Recognitions}} 
 \begin{tabular}{rl}
 Undergrad & Best outgoing student of batch\\
 2014 &  (1 out of 180 undergrads) \\
@@ -210,24 +223,10 @@ National & National Design \& Research Forum  \\
 \end{tabular}\\[10pt]
 
 %----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS
-%----------------------------------------------------------------------------------------
-
-\section{Technologies} 
-\begin{tabular}{rl}
-Proficient
-& Java \textbullet{} C \textbullet{} C++ \textbullet{} SQL
-& \\
-Familiar
-& Ruby \textbullet{} Shell \textbullet{} \LaTeX,\\
-& Python \textbullet{} Photoshop\\
-\end{tabular}\\
-
-%----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Other Activities} 
+\section{\textbf{Other Activities}}
 \textbf{Debating \& Public Speaking}\\
 \textbullet{} Member of MSRIT Debate Society \\ \textbullet{} Represented institution at over 10 competitions \\
 \textbf{Leadership \& Teamwork}\\

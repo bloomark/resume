@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.9.5)  5 SEP 2014 12:54
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.9.5)  7 SEP 2014 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,6 +813,23 @@ LaTeX Info: Redefining \nameref on input line 67.
 \openout3 = `cv_3.out'.
 
 
+! Argument of \textbf  has an extra }.
+<inserted text> 
+                \par 
+l.88 \section{\uppercase{\textbf{Experience}}}
+                                              
+? 
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+                   \par 
+l.88 \section{\uppercase{\textbf{Experience}}}
+                                              
+? 
+
+LaTeX Font Warning: Font shape `EU1/lmr/bx/sc' undefined
+(Font)              using `EU1/lmr/bx/n' instead on input line 88.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 88.
@@ -841,6 +858,19 @@ Type  H <return>  for immediate help.
 l.112 
       
 ? 
+! Argument of \textbf  has an extra }.
+<inserted text> 
+                \par 
+l.116 \section{\uppercase{\textbf{Research}}}
+                                             
+? 
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+                   \par 
+l.116 \section{\uppercase{\textbf{Research}}}
+                                             
+? 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 116.
@@ -856,20 +886,15 @@ l.123
       
 ? 
 
-! LaTeX Error: \begin{itemize} on input line 132 ended by \end{itemize }.
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \end{itemize^^I}
-                      \\
+l.134 
+      
 ? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
-
- []
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -881,74 +906,131 @@ l.145
       
 ? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 164.
+(Font)              <7> on input line 165.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 164.
+(Font)              <5> on input line 165.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 165.
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 ! Undefined control sequence.
 <argument> \custombold 
                        {in/adithyavenkatesh}
-l.164 }
+l.165 }
        \\[10pt]
 ? 
 ! Undefined control sequence.
 <argument> \custombold 
                        {@bloomark}
-l.164 }
+l.165 }
        \\[10pt]
 ? 
-LaTeX Font Info:    Try loading font information for U+mvs on input line 164.
-(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
+! Argument of \textbf  has an extra }.
+<inserted text> 
+                \par 
+l.171 \section{\textbf{Education}}
+                                  
+? 
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+                   \par 
+l.171 \section{\textbf{Education}}
+                                  
+? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--195
+Underfull \hbox (badness 10000) in paragraph at lines 173--194
 
  []
 
+! Argument of \textbf  has an extra }.
+<inserted text> 
+                \par 
+l.199 \section{\textbf{Technologies}}
+                                     
+? 
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+                   \par 
+l.199 \section{\textbf{Technologies}}
+                                     
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.203 &
+        \\
+? 
 
-Overfull \hbox (8.49811pt too wide) in paragraph at lines 201--211
+Underfull \hbox (badness 10000) in paragraph at lines 200--208
+
+ []
+
+! Argument of \textbf  has an extra }.
+<inserted text> 
+                \par 
+l.213 \section{\textbf{Recognitions}}
+                                     
+? 
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+                   \par 
+l.213 \section{\textbf{Recognitions}}
+                                     
+? 
+
+Overfull \hbox (8.49811pt too wide) in paragraph at lines 214--224
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--211
+Underfull \hbox (badness 10000) in paragraph at lines 214--224
 
  []
 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.220 &
-        \\
+! Argument of \textbf  has an extra }.
+<inserted text> 
+                \par 
+l.229 \section{\textbf{Other Activities}}
+                                         
 ? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--225
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+                   \par 
+l.229 \section{\textbf{Other Activities}}
+                                         
+? 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
  (./cv_3.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 240.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 239.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21690 strings out of 495658
- 393658 string characters out of 6187952
- 455792 words of memory out of 5000000
- 24697 multiletter control sequences out of 15000+600000
+ 21691 strings out of 495658
+ 393680 string characters out of 6187952
+ 454802 words of memory out of 5000000
+ 24698 multiletter control sequences out of 15000+600000
  4533 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,11n,48p,10418b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,48p,10418b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv_3.pdf (1 page).
