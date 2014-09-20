@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.9.5)  7 SEP 2014 17:24
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.9.5)  16 SEP 2014 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1006,19 +1006,32 @@ Runaway argument?
 l.229 \section{\textbf{Other Activities}}
                                          
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+! Argument of \textbf  has an extra }.
+<inserted text> 
+                \par 
+l.239 \section{\textbf{Courses}}
+                                
+? 
+Runaway argument?
+! Paragraph ended before \textbf  was complete.
+<to be read again> 
+                   \par 
+l.239 \section{\textbf{Courses}}
+                                
+? 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
  (./cv_3.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 246.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 246.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  )
 (\end occurred inside a group at level 1)
 
@@ -1027,7 +1040,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
 Here is how much of TeX's memory you used:
  21691 strings out of 495658
  393680 string characters out of 6187952
- 454802 words of memory out of 5000000
+ 455802 words of memory out of 5000000
  24698 multiletter control sequences out of 15000+600000
  4533 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
