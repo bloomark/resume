@@ -1,28 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Two Column One Page Curriculum Vitae
-% LaTeX Template
-% Version 1.1 (24/1/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Alessandro (The CV Inn)
-%
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Author of this version:
-% Adithya Venkatesh
-% (07 Sept 2014)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -82,9 +57,6 @@
 	
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.57\textwidth} % Start the left-hand side of the page
-\vspace{0pt} % Trick for alignment
-	
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
@@ -96,97 +68,61 @@
 %------------------------------------------------
 
 {\raggedright\large Amazon Web Services \normalsize\textsc{ | Seattle, WA & Sydney, NSW} | 07/01/2019 - Current\\
-\textbf{Senior SDE | Developer Tools}\\[5pt]}
-\vspace{0pt}
+\textbf{Senior SDE | Builders Tools}\\[5pt]}
 \begin{itemize}\itemsep-0.25em
-    \item Owned and launched a fully-managed cross-vertical test orchestration platform.
-    \item Owned a load testing tool that ensures services can continue operating at Amazon's immense scale.
-    \item Bootstrapped a new builder tools team in Australia delivering delightful integration and load testing tools to Amazon engineers.
-    \item A major part of my job is guiding new engineers through the operational and UX challenges of owning a large scale distributed system used by other engineers.
+    \item I conceived an idea to massively tighten Amazon's dev-test cycle, allowing Amazon's builders to completely test changes before merging into mainline. This involved driving consensus across a 500-person organization; convincing directors, principal engineers, and a VP that this was the best use of our time.
+    \item Bootstrapped a new organization in Australia, growing from 5-20+ engineers who consistently deliver delightful integration and load testing tools to Amazon engineers.
+    \item Led a team of 40+ engineers spread across two timezones with the charter of helping Amazon builders ensure they were always producing high-quality software.
+    \item Identified architectural redundancies in two Continuous Integration (CI) systems which drive ~99\% of Amazon's Continuous Integration (CI) traffic. I authored and delivered a 2-year plan to combine these systems with effort from 2x '2-pizza teams'.
+    \item Worked with senior engineers on the team to prototype a tool to dynamically understand traffic patterns and help Amazon's service owners comprehend the difference between customer behavior and test coverage.
+    \item Member of the organization's 5-person incident response escalation team - I orchestrate resolution of high impact security and operational issues in my organization when frontline engineers need help
 \end{itemize}\\
 
 
 {\raggedright\large Amazon Web Services \normalsize\textsc{ | Seattle, WA} | 07/13/15 - 06/31/19\\
 \textbf{SDE | Developer Tools}\\[5pt]}
-\vspace{0pt}
 \begin{itemize}\itemsep-0.25em
-    \item Launch team for a fully-managed test orchestration platform to make CI at Amazon even faster.
-    \item Built and owned tools for continuous/canary testing to help service owners identify issues and pre-empt negative customer impact.
+    \item Designed from scratch and lead a team of 7 engineers to build tools for continuous/canary testing to help service owners identify issues and pre-empt negative customer impact.
+    \item Owned and launched a fully-managed cross-vertical (integration, load, canary) test orchestration platform used by 50\% of Amazon's teams.
     \item Constantly finding ways to evangelize Builder Tools products and educate new engineers; led workshops, bootcamps and talks.
-    \item AWS CodeBuild pre launch team
+    \item AWS CodeBuild pre launch team - One of three engineers selected from my VP's org to spur the launch effort of AWS CodeBuild in time for re:Invent!
     \item Promoted to SDE-2 on 2017-04-01
 \end{itemize}\\
 
 %------------------------------------------------
-% F13X
+% PROJECTS
 %------------------------------------------------
-{\raggedright\large Cornell University \normalsize\textsc{ | Ithaca, NY} | Spring 2015\\
-\textbf{Master's Proect | f13x - Cryptocurrency Exchange }\\[5pt]}
+{\raggedright\large Academic Projects \normalsize\textsc{ | 2013 - 2015\\}
 \begin{itemize}\itemsep-0.25em
-    \item Developed a fast, scalable cryptocurrency exchange built on top of Bitcoin, Dogecoin, Flask, and Hyperdex
-    \item Combines NoSQL performance with ACID transactions to provide a more secure trading experience
+    \item \textbf{Graduate | Cornell University} - Developed a fast, scalable cryptocurrency exchange built on top of Bitcoin, Dogecoin, Flask, and Hyperdex | Protoype built to display NoSQL performance with ACID transactions capabilities of Hyperdex (built in Emin Gun Sirer's lab)
+    \item \textbf{Undergraduate | Inmobi} - Prototyped two projects 1) An Integration Test framework for a chef-based deployment platform with JenkinsCI, test-kitchen and minitest-handler 2) A platform that enabled analysis of source quality and build metrics at Inmobi
+    \item \textbf{Summer Research | Concordia University} - Researched and implemented a ‘CDMA Protocol in Multi-channel Multi-Radio Wireless Mesh Networks’ with Prof Brigitte Jaumard.
+    \item \textbf{Summer Research | IIT Bombay} - Research algorithmic solutions and improvements to simulate CNC Machining using Octree and Quadtree data structures.
 \end{itemize}\\
 
+%----------------------------------------------------------------------------------------
 
-%------------------------------------------------
-% INMOBI
-%------------------------------------------------
-
-%{\raggedleft\textsc{Jan 2014 -- July 2014 | Bangalore, INDIA}\par}
-
-{\raggedright\large InMobi \normalsize\textsc{ | Bangalore, INDIA} | 01/20/14 - 07/25/14\\
-\textbf{Bachelor's Project | InMobi Deployment Platform }\\[5pt]}
-\vspace{0pt}
-\begin{itemize}\itemsep-0.25em
-    \item Prototyped an Integration Test framework for a chef-based deployment platform with JenkinsCI, test-kitchen and minitest-handler
-    \item Prototyped a platform that enabled analysis of source quality and build metrics at Inmobi
-\end{itemize}\\
-
-%------------------------------------------------
-% CONCORDIA 
-%------------------------------------------------
-
-%{\raggedleft\textsc{June 2013 -- Aug 2013 | Montreal, QC, Canada}\par}
-
-{\raggedright\large Concordia University \normalsize\textsc{ | Montreal, QC | 07/19/13 - 07/29/13}\\
-\textbf{Summer Research}\\[5pt]}
-\begin{itemize}\itemsep-0.25em
-    \item Research and prototyped a ‘CDMA Protocol in Multi-channel Multi-Radio Wireless Mesh Networks’ with Prof Brigitte Jaumard.
-\end{itemize}\\
-
-%------------------------------------------------
-% IITB
-%------------------------------------------------
-
-%{\raggedleft\textsc{Summer 2012 | Mumbai, INDIA}\par}
-
-{\raggedright\large IIT Bombay \normalsize\textsc{ | Mumbai, INDIA | 06/14/12 - 08/10/12}\\
-\textbf{Summer Research}\\[5pt]}
-\begin{itemize}\itemsep-0.25em
-    \item Research algorithmic solutions and improvements  to simulate CNC Machining using Octree and Quadtree data structures
-\end{itemize}\\
-
-%----------------------------------------------------------------------------------------	
-
-\end{minipage} % End the left-hand side of the page
-\hfill
-\begin{minipage}[t]{0.4\textwidth} % Start the right-hand side of the page
-\vspace{0pt} % Trick for alignment
+\begin{minipage}[t]{0.49\textwidth} % Start the left-hand side of the page
 
 %----------------------------------------------------------------------------------------
 %	COLORED BOX
 %----------------------------------------------------------------------------------------
 
-\colorbox{shade}{\textcolor{text1}{
-\begin{tabular}{r|p{4cm}}
-\raisebox{-1pt}{\Letter} & \href{mailto:adithyavenk@gmail.com}{adithyavenk@gmail.com} \\ % Email address
-\raisebox{-3pt}{\Mobilefone} & +1 972-567-0504 \\ % Phone number
-LinkedIn & \href{https://www.linkedin.com/in/adithyavenkatesh}{\custombold{in/adithyavenkatesh}} \\
-Github & \href{https://github.com/bloomark}{\custombold{bloomark}} \\
-Work Authorization & H1B, Indian Citizen, AU Permanent Resident
-\end{tabular}
-}
+\vspace{10pt}
+\colorbox{shade}{
+    \textcolor{text1}{
+        \begin{tabular}{r|p{4cm}}
+            \raisebox{-1pt}{\Letter} & \href{mailto:adithyavenk@gmail.com}{adithyavenk@gmail.com} \\ % Email address
+            \raisebox{-3pt}{\Mobilefone} & +1 972-567-0504 \\ % Phone number
+            LinkedIn & \href{https://www.linkedin.com/in/adithyavenkatesh}{\custombold{in/adithyavenkatesh}} \\
+%            Github & \href{https://github.com/bloomark}{\custombold{bloomark}} \\
+            Work Authorization & US H1B, Indian Citizen, AU Permanent Resident
+        \end{tabular}
+    }
 }\\[10pt]
+
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth} % Start the right-hand side of the page
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -217,8 +153,5 @@ Work Authorization & H1B, Indian Citizen, AU Permanent Resident
 \end{tabular}\\[10pt]
 
 \end{minipage} % End right-hand side of the page
-\\
 
-\vspace{5pt} % Trick for alignment
-
-\end{document}  
+\end{document}
