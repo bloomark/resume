@@ -6,6 +6,7 @@
 \usepackage[hmargin=1.25cm, vmargin=1.0cm]{geometry} % Document margins
 
 \usepackage{ifsym} % Required for symbols in the colored box
+\usepackage{marvosym} % Required for \Mobilefone
 
 \usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
 
@@ -38,8 +39,8 @@
 \usepackage{titlesec} % Allows creating custom \section's
 
 % Format of the section titles
-\titleformat{\section}{\color{headings}{\textbf}
-\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+\titleformat{\section}{\color{headings}
+\scshape\Large\bfseries\raggedright}{}{0em}{}[\color{black}\titlerule]
 
 \titlespacing{\section}{0pt}{0pt}{3pt} % Spacing around titles
 
@@ -51,7 +52,7 @@
 %	TITLE
 %----------------------------------------------------------------------------------------
 
-\par{\centering{\sffamily\Large Adithya \textbf{Venkatesh}}\\ % Your name
+\par{\centering{\sffamily\Large Adithya \textbf{Venkatesh}}\\} % Your name
 %{\color{headings}\sffamily\Huge\fontspec{Freebooter Script}Curriculum {Vit\fontspec{Freebooter Script}\ae}\\[15pt]\par}
 %{\color{headings}\fontspec[Variant = 2]{Zapfino} Curriculum {Vit\fontspec[Variant = 3]{Zapfino}\ae}\\[15pt]\par} % Curriculum vitae text in the Zapfino font
 	
@@ -61,21 +62,20 @@
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{\uppercase{\textbf{Experience}}}
+\section{Experience}
 
 %------------------------------------------------
 % AMAZON
 %------------------------------------------------
 
-{\raggedright\large Amazon.com \normalsize\textsc{ | Seattle, WA & Sydney, NSW} | 10/01/2025 - Current\\
+{\raggedright\large Amazon.com \normalsize\textsc{ | Seattle, WA \& Sydney, NSW} | 10/01/2025 - Current\\
 \textbf{Principal Software Engineer | Builders Foundations}\\[2pt]}
 \begin{itemize}\itemsep-0.5em
     \item Improved time to release new features to customers by 74pct for the average Amazon team, 71pct for p90.
     \item In December 2025, I moved to work on systems at the heart of Amazon.com to evolve their testing practices to be AI-native.
-\end{itemize}\\
+\end{itemize}
 
-
-{\raggedright\large Amazon Web Services \normalsize\textsc{ | Seattle, WA & Sydney, NSW} | 07/01/2019 - 09/30/2025\\
+{\raggedright\large Amazon Web Services \normalsize\textsc{ | Seattle, WA \& Sydney, NSW} | 07/01/2019 - 09/30/2025\\
 \textbf{Senior SDE | Builders Tools}\\[2pt]}
 \begin{itemize}\itemsep-0.5em
     \item I conceived and implemented a project to massively tighten Amazon's dev-test cycle, allowing Amazon's builders to completely test changes before merging into mainline. This involved driving consensus across a 500-person organization; convincing directors, principal engineers, and a VP that this was the best use of our time.
@@ -84,8 +84,7 @@
     \item Identified architectural redundancies in two Continuous Integration (CI) systems which drive ~99\% of Amazon's Continuous Integration (CI) traffic. I authored and delivered a 2-year plan to combine these systems, and consulted with 2x '2-pizza' teams to successfully merge them.
     \item Worked with senior engineers on the team to prototype a tool to dynamically understand traffic patterns and help Amazon's service owners comprehend the difference between customer behavior and test coverage.
     \item Member of the organization's 5-person incident response escalation team - I orchestrate resolution of high impact security and operational issues in my organization when frontline engineers need help
-\end{itemize}\\
-
+\end{itemize}
 
 {\raggedright\large Amazon Web Services \normalsize\textsc{ | Seattle, WA} | 07/13/15 - 06/31/19\\
 \textbf{SDE | Developer Tools}\\[2pt]}
@@ -95,18 +94,18 @@
     \item Constantly finding ways to evangelize Builder Tools products and educate new engineers; led workshops, bootcamps and talks.
     \item AWS CodeBuild pre launch team - One of three engineers selected from my VP's org to spur the launch effort of AWS CodeBuild in time for re:Invent!
     \item Promoted to SDE-2 on 2017-04-01
-\end{itemize}\\
+\end{itemize}
 
 %------------------------------------------------
 % PROJECTS
 %------------------------------------------------
-{\raggedright\large Academic Projects \normalsize\textsc{ | 2013 - 2015\\}
+{\raggedright\large Academic Projects \normalsize\textsc{ | 2013 - 2015}\\}
 \begin{itemize}\itemsep-0.5em
     \item \textbf{Graduate | Cornell University} - Built/Prototyped a scalable cryptocurrency exchange built on top of Bitcoin, and Hyperdex (under Emin Gun Sirer)
     \item \textbf{Undergraduate | Inmobi} - Prototyped a Jenkins + Chef + test-kitchen based Integration Test framework for a chef-based deployment platform with JenkinsCI 2) A platform that enabled analysis of source quality and build metrics at Inmobi
-    \item \textbf{Summer Research | Concordia University} - ‘CDMA Protocol in Multi-channel Multi-Radio Wireless Mesh Networks’ with Prof Brigitte Jaumard.
+    \item \textbf{Summer Research | Concordia University} - 'CDMA Protocol in Multi-channel Multi-Radio Wireless Mesh Networks' with Prof Brigitte Jaumard.
     \item \textbf{Summer Research | IIT Bombay} - Algorithmic solutions and improvements to simulate CNC Machining using Octree and Quadtree data structures.
-\end{itemize}\\
+\end{itemize}
 
 %----------------------------------------------------------------------------------------
 
@@ -122,8 +121,8 @@
         \begin{tabular}{r|p{4cm}}
             \raisebox{-1pt}{\Letter} & \href{mailto:adithyavenk@gmail.com}{adithyavenk@gmail.com} \\ % Email address
             \raisebox{-3pt}{\Mobilefone} & +1 972-567-0504 \\ % Phone number
-            LinkedIn & \href{https://www.linkedin.com/in/adithyavenkatesh}{\custombold{in/adithyavenkatesh}} \\
-%            Github & \href{https://github.com/bloomark}{\custombold{bloomark}} \\
+            LinkedIn & \href{https://www.linkedin.com/in/adithyavenkatesh}{\textbf{in/adithyavenkatesh}} \\
+%            Github & \href{https://github.com/bloomark}{\textbf{bloomark}} \\
             Work Authorization & US H1B, Indian Citizen, AU Permanent Resident
         \end{tabular}
     }
@@ -136,7 +135,7 @@
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\section{\textbf{Education}}
+\section{Education}
 
 \begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
 
