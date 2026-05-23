@@ -49,6 +49,24 @@
         }
       );
 
+      apps = forAllSystems (system:
+        let
+          pkgs = nixpkgs.legacyPackages.${system};
+          cv = self.packages.${system}.default;
+          script = pkgs.writeShellScript "build-resume" ''
+            set -euo pipefail
+            install -m 644 "${cv}/cv_3.pdf" resume.pdf
+            echo "wrote resume.pdf"
+          '';
+        in
+        {
+          default = {
+            type = "app";
+            program = "${script}";
+          };
+        }
+      );
+
       devShells = forAllSystems (system:
         let
           pkgs = nixpkgs.legacyPackages.${system};

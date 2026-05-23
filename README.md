@@ -1,8 +1,13 @@
 ### Build (Nix)
 ```
+nix run
+```
+Builds via Nix and writes `resume.pdf` to repo root (tracked in git). Commit it to publish updates.
+
+Raw build (output in `result/cv_3.pdf`, not tracked):
+```
 nix build
 ```
-Output: `result/cv_3.pdf`
 
 ### Dev shell
 ```
