@@ -9,6 +9,7 @@
 \usepackage{marvosym} % Required for \Mobilefone
 
 \usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+\usepackage{graphicx} % Required to include images
 
 % Fonts and tweaks for XeLaTeX
 \usepackage{fontspec,xltxtra,xunicode}
@@ -52,17 +53,28 @@
 %	TITLE
 %----------------------------------------------------------------------------------------
 
-\par{\centering{\sffamily\Large Adithya \textbf{Venkatesh}}\\} % Your name
-%{\color{headings}\sffamily\Huge\fontspec{Freebooter Script}Curriculum {Vit\fontspec{Freebooter Script}\ae}\\[15pt]\par}
-%{\color{headings}\fontspec[Variant = 2]{Zapfino} Curriculum {Vit\fontspec[Variant = 3]{Zapfino}\ae}\\[15pt]\par} % Curriculum vitae text in the Zapfino font
-	
+\noindent
+\begin{minipage}[c]{0.75\textwidth}
+\sffamily\Huge Adithya \textbf{Venkatesh}
+\end{minipage}%
+\begin{minipage}[c]{0.24\textwidth}
+\raggedleft
+\setlength{\fboxsep}{0pt}%
+\setlength{\fboxrule}{0.5pt}%
+\fbox{\includegraphics[height=3.5cm]{headshot-cropped.png}}
+\end{minipage}
+\vspace*{-25pt}
 %----------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
+\noindent
+\begin{minipage}{0.72\textwidth}
 \section{Experience}
+\end{minipage}
+
 
 %------------------------------------------------
 % SNOWFLAKE
